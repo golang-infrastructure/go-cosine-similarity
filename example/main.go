@@ -1,16 +1,3 @@
-# 余弦相似度 
-
-
-
-# 一、安装
-
-```bash
-go get -u github.com/golang-infrastructure/go-cosine-similarity
-```
-
-# 二、示例代码
-
-```go
 package main
 
 import (
@@ -30,15 +17,3 @@ func main() {
 	// Output:
 	// 0.7071067811865475
 }
-```
-
-
-
-
-
-
-
-
-
-
-

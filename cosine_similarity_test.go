@@ -11,4 +11,6 @@ func TestIntE(t *testing.T) {
 	e, err := NumberSliceCosineSimilarityE(sliceA, sliceB)
 	assert.Nil(t, err)
 	t.Log(e)
+	// Output:
+	// 0.7071067811865475
 }

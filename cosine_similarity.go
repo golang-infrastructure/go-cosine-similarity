@@ -24,7 +24,5 @@ func NumberSliceCosineSimilarityE[T gtypes.Number](sliceA, sliceB []T) (float64,
 		t2 += float64(sliceA[index]) * float64(sliceA[index])
 		t3 += float64(sliceB[index]) * float64(sliceB[index])
 	}
-	fmt.Println(math.Sqrt(t2))
-	fmt.Println(math.Sqrt(t3))
 	return t1 / (math.Sqrt(t2) * math.Sqrt(t3)), nil
 }
